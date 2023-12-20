@@ -43,7 +43,11 @@ class Ber:
             if dolgozo.telepules == "Hatvan":
                 osszeg = osszeg + int(dolgozo.fizetes)
             print("Hatvaniak fizetése:",osszeg)
-            
+
+    #új függvény
+    def uj_feladat(self):
+        pass
+
 # class Ber vége
 
 ber = Ber()
